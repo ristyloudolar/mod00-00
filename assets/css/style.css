@@ -1,4 +1,129 @@
+/*
+*
+*
+* CSS Reset
+*
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*
+*
+* General Rules
+*
+*/
+
+section {
+	min-height: 100vh;
+
+}
+
+/*
+*
+* Sections
+*
+*/
+
+section#bio {
+	background-color: #6227ae;
+	position: relative;
+}
+
+section#bio, 
+section#bio a {
+	color: #fff;
+}
+
+
+
+
+section#bio > div#details > img {
+	border-radius: 50%;
+	width: 200px;
+	border: 5px solid white;
+	padding: 4px;
+}
+section#bio > div#details > h1,
+section#bio > div#details > ul	{
+font-family: 'Noto Serif', serif;
+padding-top: 15px;
+padding-bottom: 15px;	
+}
+
+section#bio > div#details > h1 {
+	font-size: 40px;
+}
+
+section#bio > div#details > ul	{
+	list-style: none;
+	font-size: 25px;
+}
+
+div#details {
+	/*border: 1px solid #fff;*/
+	width: 50%;
+	text-align: center;
+	padding: 15px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+
+
+section#projects {
+	background-color: #eaa1c2;
+}
+
+
+section#skillset {
+	background-color: #747474;
+}
+
+section#contact {
+	background-color: #ea125e;
+	position: relative;
+}
+
+section#projects > h2,
+section#skillset > h2,
+section#contact > h2{
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
 body {
-		background-color: red;
+	/*background-color: red;*/
+	font-family: 'Hind Siliguri', sans-serif;
 	
+}
+
+/*
+*
+* Footer
+*
+*/
+
+footer {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	background-color: #2b0645;
+	color: lightgrey;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+footer a {
+	color: lightgrey;
 }
